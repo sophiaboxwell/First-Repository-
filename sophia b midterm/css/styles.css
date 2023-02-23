@@ -1,0 +1,24 @@
+body{ 
+/* yo student - this is the way to override a css custom property */  
+   --bs-primary-rgb: 13, 110, 253;
+}
+/* yo student */
+#mine  span.navbar-toggler-icon {
+background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")	!important;
+}
+
+header.my-background {
+  background-image: /*url(https://www.jefferson.edu/content/academic/index/jcr%3acontent/root/article/upper_iparsys/home_hero/backgroundImage.img.jpg/1676575858168.jpg);*/
+	url(https://via.placeholder.com/1280x853/e1e1e1/000000.jpg?text=This+is+a+background+image);
+  background-size: cover;
+  background-position: center;
+}
+/*change the background position on big screens*/
+@media (min-width: 1200px) {
+  header.my-background {
+    background-position: center;
+  }
+}
+header .teaser {
+  background-color: rgba(000, 000, 000, 0.6);
+}
