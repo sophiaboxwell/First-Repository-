@@ -9,12 +9,12 @@ background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/sv
 }
 
 header.my-background {
-  background-image: url(../images/jeffersonmeeting.jpg);
+  background-image: url(../images/manayunkbackground.jpeg);
     
 	/*url(https://via.placeholder.com/1280x853/e1e1e1/000000.jpg?text=This+is+a+background+image);*/
   
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 /*change the background position on big screens*/
 @media (min-width: 1200px) {
