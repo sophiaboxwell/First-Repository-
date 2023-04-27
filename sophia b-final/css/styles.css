@@ -13,7 +13,8 @@ header {
 height: 56px;  
 }
 nav[data-bs-theme="dark"]{
-  background:var(--my-brand-color); 
+  background:var 
+      (--my-brand-color); 
 }
 .btn-outline-success {
     color:var(--my-special-btn-color);
